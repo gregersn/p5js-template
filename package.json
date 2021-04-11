@@ -2,11 +2,10 @@
   "name": "p5js_template",
   "version": "1.0.0",
   "description": "Template for working with p5.js in TypeScript",
-  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html"
+    "start": "parcel src/index.html --open --dist-dir ./devel",
+    "build": "parcel build src/index.html --dist-dir ./build"
   },
   "keywords": [
     "p5js",
